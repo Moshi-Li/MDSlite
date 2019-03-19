@@ -1,0 +1,31 @@
+{
+  "name": "mdslite",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "compile": "electron-webpack",
+    "dist": "npm run compile && electron-builder"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.8.4",
+    "react-icons": "^3.5.0",
+    "react-pose": "^4.0.8",
+    "source-map-support": "^0.5.10"
+  },
+  "devDependencies": {
+    "electron": "^4.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "electron-builder": "20.38.4",
+    "electron-packager": "^13.1.1",
+    "electron-webpack": "^2.6.2",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "4.28.4"
+  },
+  "author": "Moshi Li",
+  "license": "MIT"
+}

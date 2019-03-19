@@ -1,0 +1,26 @@
+.movie-page{
+    padding:60px 20px 10px 20px;
+    p{
+        margin: 2px;
+    }
+    .content-poster{
+        height: 240px;
+        width: 180px;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .content-rating{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+    }
+    .content-entry {
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: 70px 1fr;
+    }
+    .content-comment{
+        margin-top: 20px;
+    }
+}

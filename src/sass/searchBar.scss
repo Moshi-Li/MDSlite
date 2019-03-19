@@ -1,0 +1,80 @@
+.search-bar{
+    position: fixed;
+    left: 20px;
+    top:30px;
+    height: 20px;
+    padding: 2px 2px;
+    border: 1px solid black;
+    background-color: white;
+
+    .search-icon{
+        position: absolute;
+        left: 3px;
+        top:2px;
+    }
+
+    .content{
+        display: grid;
+        grid-template-columns: 30px 3fr 1fr;
+        align-items: center;
+        justify-items: center;
+        position: relative;
+        top:1px;
+
+        .dropdown{
+            position: absolute;
+            width: 200px; //200px
+            max-height: 400px;
+            overflow: auto;
+        
+            border: 1px solid black;
+            border-top: none;
+            background-color: white;
+            
+            p{
+                margin: 1px;
+            }
+
+            .item{
+                display: grid;
+                grid-template-columns: 1fr 20px;
+                font-size: 12px;
+                padding: 5px;
+                cursor: pointer;
+            }
+        
+
+            .item-selected{
+                display: grid;
+                grid-template-columns: 1fr 20px;
+                font-size: 12px;
+                padding: 5px;
+                background-color: grey;
+                cursor: pointer;
+            } 
+        }
+    }
+    input{
+        border: 0.1px solid black; 
+        padding: 1px;
+        height: 15px;
+
+        width: 200px;
+    }
+    input:focus{
+        outline: none;
+    }
+    button{
+        border: 0.1px solid black;
+        width: 30px;
+        padding: 1px;
+        height: 15px;
+    }
+    button:active{
+        background-color: black;
+        color: white;
+    }
+    button:focus{
+        outline: none;
+    }
+}
