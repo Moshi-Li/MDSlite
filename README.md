@@ -9,9 +9,6 @@ npm run dist
 ```
 
 ## Usage
-Open MDSlite.app in root File
+Open MDSlite.app in dist File
 
-![Imgur Image](https://raw.githubusercontent.com/MoshiLi95/MDSlite/master/usage.gif)
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+![](usage.gif)
